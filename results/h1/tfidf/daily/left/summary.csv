@@ -1,0 +1,2 @@
+stream_group,detector,detections,true_positives,false_positives,avg_delay_days,events_detected,events_missed
+left,KSWIN,4,3,1,-0.6666666666666666,3,12

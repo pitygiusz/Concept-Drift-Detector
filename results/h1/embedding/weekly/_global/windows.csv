@@ -1,0 +1,103 @@
+stream_group,time_window,n_articles,domains,labels
+left,2024-04-01,21,"['motherjones.com', 'thenation.com']",[0]
+left,2024-04-08,19,"['motherjones.com', 'thenation.com']",[0]
+left,2024-04-15,17,"['motherjones.com', 'thenation.com']",[0]
+left,2024-04-22,16,"['motherjones.com', 'thenation.com']",[0]
+left,2024-04-29,20,"['motherjones.com', 'thenation.com']",[0]
+left,2024-05-06,16,"['motherjones.com', 'thenation.com']",[0]
+left,2024-06-03,15,"['motherjones.com', 'thenation.com']",[0]
+left,2024-06-10,19,"['motherjones.com', 'thenation.com']",[0]
+left,2024-06-24,15,"['motherjones.com', 'thenation.com']",[0]
+left,2024-07-08,17,"['motherjones.com', 'thenation.com']",[0]
+left,2024-07-15,24,"['motherjones.com', 'thenation.com']",[0]
+left,2024-07-29,16,"['motherjones.com', 'thenation.com']",[0]
+left,2024-08-12,18,"['motherjones.com', 'thenation.com']",[0]
+left,2024-08-19,23,"['motherjones.com', 'thenation.com']",[0]
+left,2024-08-26,15,"['motherjones.com', 'thenation.com']",[0]
+left,2024-09-02,22,"['motherjones.com', 'thenation.com']",[0]
+left,2024-09-09,21,"['motherjones.com', 'thenation.com']",[0]
+left,2024-09-23,25,"['motherjones.com', 'thenation.com']",[0]
+left,2024-10-07,19,"['motherjones.com', 'thenation.com']",[0]
+left,2024-10-21,29,"['motherjones.com', 'thenation.com']",[0]
+left,2024-10-28,18,"['motherjones.com', 'thenation.com']",[0]
+left,2024-11-04,16,"['motherjones.com', 'thenation.com']",[0]
+left,2024-11-11,21,"['motherjones.com', 'thenation.com']",[0]
+left,2024-11-18,15,"['motherjones.com', 'thenation.com']",[0]
+left,2024-11-25,18,"['motherjones.com', 'thenation.com']",[0]
+left,2024-12-09,15,"['motherjones.com', 'thenation.com']",[0]
+left,2024-12-16,21,"['motherjones.com', 'thenation.com']",[0]
+left,2025-01-06,18,"['motherjones.com', 'thenation.com']",[0]
+left,2025-01-13,15,"['motherjones.com', 'thenation.com']",[0]
+left,2025-01-20,24,"['motherjones.com', 'thenation.com']",[0]
+left,2025-01-27,15,"['motherjones.com', 'thenation.com']",[0]
+left,2025-02-03,27,"['motherjones.com', 'thenation.com']",[0]
+left,2025-02-10,19,"['motherjones.com', 'thenation.com']",[0]
+mixed,2024-03-11,20,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-03-18,22,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-03-25,60,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-04-01,44,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-04-08,34,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-04-15,31,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-04-22,29,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-04-29,88,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-05-06,30,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-05-13,25,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-05-20,22,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-05-27,71,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-06-03,29,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-06-10,33,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-06-17,21,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-06-24,39,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-07-01,55,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-07-08,37,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-07-15,24,"['motherjones.com', 'thenation.com']",[0]
+mixed,2024-07-22,39,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-07-29,81,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-08-05,26,"['breitbart.com', 'thenation.com']","[0, 1]"
+mixed,2024-08-12,31,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-08-19,37,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-08-26,71,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-09-02,43,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-09-09,35,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-09-16,27,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-09-23,36,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-09-30,77,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-10-07,32,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-10-14,26,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-10-21,43,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-10-28,79,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-11-04,38,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-11-11,35,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-11-18,28,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-11-25,79,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-12-02,28,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-12-09,27,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-12-16,36,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-12-23,17,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2024-12-30,71,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2025-01-06,32,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2025-01-13,27,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2025-01-20,38,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2025-01-27,81,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2025-02-03,47,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+mixed,2025-02-10,33,"['breitbart.com', 'motherjones.com', 'thenation.com']","[0, 1]"
+right,2024-03-25,49,['breitbart.com'],[1]
+right,2024-04-01,23,['breitbart.com'],[1]
+right,2024-04-08,15,['breitbart.com'],[1]
+right,2024-04-29,68,['breitbart.com'],[1]
+right,2024-05-27,61,['breitbart.com'],[1]
+right,2024-06-24,24,['breitbart.com'],[1]
+right,2024-07-01,41,['breitbart.com'],[1]
+right,2024-07-08,20,['breitbart.com'],[1]
+right,2024-07-22,25,['breitbart.com'],[1]
+right,2024-07-29,65,['breitbart.com'],[1]
+right,2024-08-26,56,['breitbart.com'],[1]
+right,2024-09-02,21,['breitbart.com'],[1]
+right,2024-09-30,65,['breitbart.com'],[1]
+right,2024-10-28,61,['breitbart.com'],[1]
+right,2024-11-04,22,['breitbart.com'],[1]
+right,2024-11-25,61,['breitbart.com'],[1]
+right,2024-12-16,15,['breitbart.com'],[1]
+right,2024-12-30,62,['breitbart.com'],[1]
+right,2025-01-27,66,['breitbart.com'],[1]
+right,2025-02-03,20,['breitbart.com'],[1]
