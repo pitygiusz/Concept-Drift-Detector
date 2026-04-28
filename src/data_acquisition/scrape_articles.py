@@ -13,28 +13,22 @@ from pathlib import Path
 # ============================================================
 
 SOURCES = {
-    # LEFT
     "thenation.com": 0,
-    # "motherjones.com": 0,
-    # "vox.com": 0,
-
-    # RIGHT
-    # "breitbart.com": 1,
-    # "foxnews.com": 1,
-    # "dailycaller.com": 1,
+    #"motherjones.com": 0,
+    #"breitbart.com": 1  
 }
 
 KEYWORDS = "Trump OR Biden OR President"
 
-START_DATE = datetime(2025, 12, 27)
-END_DATE = datetime(2026, 4, 27)
+START_DATE = datetime(2024, 10, 1)
+END_DATE = datetime(2026, 4, 1)
 
 OUTPUT_FILE = Path("data/raw/articles_raw.jsonl")
 
 WINDOW_SIZE_MONTHS = 1
-MAX_RECORDS_PER_REQUEST = 100
+MAX_RECORDS_PER_REQUEST = 60
 
-REQUEST_DELAY = 3
+REQUEST_DELAY = 6
 SCRAPE_DELAY = 1
 
 MAX_RETRIES = 10
@@ -186,8 +180,8 @@ def load_existing_urls(output_file):
 # MAIN FUNCTION
 # ============================================================
 
-def scrape_data():
-    seen_urls = load_existing_urls(OUTPUT_FILE)
+def scrape_data(output_file = OUTPUT_FILE, sources = SOURCES, keywords = KEYWORDS, start_date = START_DATE, end_date = END_DATE):
+    seen_urls = load_existing_urls(output_file)
 
     total_found = 0
     total_saved = 0
@@ -196,26 +190,26 @@ def scrape_data():
 
     print("=" * 70)
     print("Starting GDELT article collection")
-    print(f"Output file: {OUTPUT_FILE}")
+    print(f"Output file: {output_file}")
     print(f"Already collected URLs: {len(seen_urls)}")
     print("=" * 70)
 
-    for domain, label in SOURCES.items():
+    for domain, label in sources.items():
         print(f"\nSource: {domain}, label: {label}")
 
-        current_date = START_DATE
+        current_date = start_date
 
-        while current_date < END_DATE:
+        while current_date < end_date:
             next_date = current_date + relativedelta(months=WINDOW_SIZE_MONTHS)
 
-            if next_date > END_DATE:
-                next_date = END_DATE
+            if next_date > end_date:
+                next_date = end_date
 
             print(f"\nCollecting articles from {current_date.date()} to {next_date.date()}")
 
             articles = get_article_urls_from_gdelt(
                 domain=domain,
-                query=KEYWORDS,
+                query=keywords,
                 start_date=current_date,
                 end_date=next_date
             )
@@ -261,7 +255,7 @@ def scrape_data():
     print(f"Saved articles:         {total_saved}")
     print(f"Duplicates skipped:     {total_duplicates}")
     print(f"Failed scrapes:         {total_failed_scrapes}")
-    print(f"Output file:            {OUTPUT_FILE}")
+    print(f"Output file:            {output_file}")
     print("=" * 70)
 
 
