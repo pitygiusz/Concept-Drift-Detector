@@ -4,19 +4,19 @@ An online machine learning project investigating **concept drift in political la
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Political language evolves rapidly, especially around major events like elections, debates, or candidate changes. This evolution introduces **concept drift** — a shift in the relationship between text and its meaning over time.
 
 This project explores:
 
-- ❌ Why **classification-based drift detection fails** in real-world political data  
-- ✅ How **unsupervised distributional methods succeed**  
-- 🔬 The difference between **synthetic vs real-world drift behavior**
+-  Why **classification-based drift detection fails** in real-world political data  
+-  How **unsupervised distributional methods succeed**  
+-  The difference between **synthetic vs real-world drift behavior**
 
 ---
 
-## 🧠 Key Insight (Main Contribution)
+##  Key Insight (Main Contribution)
 
 > **Drift detection is useless if your model learns nothing.**
 
@@ -29,13 +29,13 @@ From experiments:
 - Distributional approach (**cosine distance between embeddings**)  
   → detects **real-world semantic shifts aligned with events**
 
-📌 This is the core conclusion of the project 
+ This is the core conclusion of the project 
 
 ---
 
-## 🏗️ Methodology
+##  Methodology
 
-### 🔹 Part I — Classification-Based Drift
+###  Part I — Classification-Based Drift
 
 Pipeline:
 
@@ -45,8 +45,8 @@ Tested:
 - ADWIN drift detection
 
 ### Result:
-- Works on synthetic data ✔️  
-- **Fails completely on real data ❌**
+- Works on synthetic data   
+- **Fails completely on real data **
 
 Reason:
 - Political text is **too noisy and sparse**
@@ -54,7 +54,7 @@ Reason:
 
 ---
 
-### 🔹 Part II — Distributional Drift
+###  Part II — Distributional Drift
 
 Pipeline:
 
@@ -74,32 +74,32 @@ Steps:
 
 ---
 
-## 📊 Experimental Results
+##  Experimental Results
 
-### 🧪 Synthetic Data
+###  Synthetic Data
 
 - ADWIN detects abrupt drift reliably  
 - Gradual drift → harder to detect  
 - Recurring drift → detected strongly  
 
-👉 Validates correctness of implementation
+ Validates correctness of implementation
 
 ---
 
-### 📰 Real-World Data (GDELT)
+###  Real-World Data (GDELT)
 
-#### ❌ Classification Approach
+#### Classification Approach
 
 - Accuracy ≈ majority baseline
 - No correlation with:
   - US Election (Nov 2024)
   - Inauguration (Jan 2025)
 
-👉 Model learns nothing → drift detection impossible
+ Model learns nothing → drift detection impossible
 
 ---
 
-#### ✅ Distributional Drift
+####  Distributional Drift
 
 ##### Mixed stream:
 - Detects events like:
@@ -108,26 +108,26 @@ Steps:
 
 ##### Ideology-specific streams:
 
-🟦 Left-leaning:
+ Left-leaning:
 - Biden withdrawal
 - Harris nomination
 - Democratic Convention
 
-🟥 Right-leaning:
+ Right-leaning:
 - Trump conviction
 - Assassination attempt
 - Republican Convention
 
-👉 **Drift is ideology-dependent** 
+ **Drift is ideology-dependent** 
 
-## 🧪 Experiments (Current State)
+##  Experiments (Current State)
 
 At this stage of the project, most experiments are conducted and organized within the `notebooks/` directory.  
 These notebooks serve as the primary interface for running analyses, visualizing results, and iterating on ideas.
 
 While this approach enables fast experimentation and flexibility during development, the structure is currently **not fully modularized**.
 
-🚧 In future iterations, the project will be refactored to:
+ In future iterations, the project will be refactored to:
 - move core experiment logic into reusable Python modules (`src/experiments/`)
 - provide clean CLI entry points for running experiments
 - standardize configuration and result logging
@@ -135,7 +135,7 @@ While this approach enables fast experimentation and flexibility during developm
 
 The long-term goal is to transition from a **research-oriented notebook workflow** to a **fully structured, production-ready experiment framework**.
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 git clone https://github.com/pitygiusz/Concept-Drift-Detector.git
