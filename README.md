@@ -29,13 +29,13 @@ From experiments:
 - Distributional approach (**cosine distance between embeddings**)  
   → detects **real-world semantic shifts aligned with events**
 
-📌 This is the core conclusion of the project :contentReference[oaicite:1]{index=1}
+📌 This is the core conclusion of the project 
 
 ---
 
 ## 🏗️ Methodology
 
-### 🔹 Part I — Classification-Based Drift (FAILED in real-world)
+### 🔹 Part I — Classification-Based Drift
 
 Pipeline:
 
@@ -54,7 +54,7 @@ Reason:
 
 ---
 
-### 🔹 Part II — Distributional Drift (SUCCESS)
+### 🔹 Part II — Distributional Drift
 
 Pipeline:
 
