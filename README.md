@@ -19,12 +19,21 @@ This project explores:
 
 > **Drift detection is useless if your model learns nothing.**
 
-Our experiments include:
+From experiments:
 
-- Classification models (**TF-IDF + NB**, **LLM + Logistic Regression**)  
-- Distributional approach (**cosine distance between embeddings**)  
+- Classification models (TF-IDF + NB, LLM + Logistic Regression)
 
-Main Contributions include:
+    - collapse to majority-class prediction
+
+    - no drift detection possible
+
+- Distributional approach (cosine distance between embeddings)
+
+    - detects real-world semantic shifts aligned with events
+
+## Main Contributions 
+
+
 - Custom-made synthetic natural language data generator for controlled drift experiments
 - Extending the `river.base.Transformer` class to combine onlne learning with transformers-based embeddings
 - Cutom-made unsupervised drift detection pipeline using ADWIN, Page-Hinkley, and KSWIN on embedding distances
