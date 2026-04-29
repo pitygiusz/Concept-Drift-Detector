@@ -7,29 +7,17 @@ An online machine learning project investigating **concept drift in political la
 
 Political language evolves rapidly, especially around major events like elections, debates, or candidate changes. This evolution introduces **concept drift** — a shift in the relationship between text and its meaning over time.
 
-This project explores:
+### This project explores:
 
 -  Why **classification-based drift detection fails** in real-world political data  
 -  How **unsupervised distributional methods succeed**  
 -  The difference between **synthetic vs real-world drift behavior**
 
 
-
-##  Key Insight
+###  Key Insight:
 
 > **Drift detection is useless if your model learns nothing.**
 
-From experiments:
-
-- Classification models (TF-IDF + NB, LLM + Logistic Regression)
-
-    - collapse to majority-class prediction
-
-    - no drift detection possible
-
-- Distributional approach (cosine distance between embeddings)
-
-    - detects real-world semantic shifts aligned with events
 
 ## Novel Methods
 
