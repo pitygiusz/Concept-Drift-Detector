@@ -1,0 +1,321 @@
+\documentclass[11pt]{beamer}
+
+% Language and encoding settings
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% Useful math and graphics packages
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs} % For better looking tables
+
+% Theme and color selection
+\usetheme{Madrid} % Classic, professional theme
+\usecolortheme{default}
+
+% Informacje o prezentacji (strona tytułowa)
+\title[]{Concept Drift in Media Bias Classification}
+\subtitle{Machine Learning Methods for Data Streams}
+\author[P. Jurczyk, K. Krawiec]{Piotr Jurczyk \and Krzysztof Krawiec}
+\institute[WUT]
+{
+   \\
+  Warsaw University of Technology
+}
+\begin{document}
+
+% ---------------------------------------------------
+% Title Slide
+% ---------------------------------------------------
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% ---------------------------------------------------
+% Outline / Table of Contents
+% ---------------------------------------------------
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+
+\section{Introduction}
+
+\begin{frame}{Introduction}
+Modern online media can be treated as a \textbf{stream of textual data}, where political articles are published continuously and may reflect changing narratives, framing strategies, and ideological language patterns over time.
+
+\vspace{0.3cm}
+
+The aim of this project is to develop and evaluate two complementary approaches for \textbf{drift detection in political news streams}:
+\begin{enumerate}
+    \item \textbf{Part I}: Classification-based drift detection using online classifiers
+    \item \textbf{Part II}: Unsupervised distributional drift detection
+\end{enumerate}
+
+\vspace{0.3cm}
+
+Dataset: GDELT articles (Oct 2024 -- Apr 2026), 890 articles for binary left/right classification, 4200 articles in total.
+
+\end{frame}
+
+%---------------------------------------------------
+\section{Synthetic Data Generation}
+
+\begin{frame}{Synthetic Data Generation}
+
+To validate drift detection under \textbf{controlled conditions}, we created a synthetic data generator with ideologically-coded vocabularies:
+
+\vspace{0.3cm}
+
+\begin{table}
+\centering
+\small
+\begin{tabular}{lcc}
+\toprule
+\textbf{Component} & \textbf{Left} & \textbf{Right} \\
+\midrule
+Class vocabulary ($V_L$, $V_R$) & 50 terms & 50 terms \\
+Shared neutral vocabulary & \multicolumn{2}{c}{130 terms} \\
+Cross-contamination & \multicolumn{2}{c}{10\%} \\
+Neutral noise & \multicolumn{2}{c}{40\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vspace{0.3cm}
+
+\textbf{Drift simulation types:}
+\begin{itemize}
+    \item \textbf{Abrupt}: Instantaneous vocabulary swap
+    \item \textbf{Gradual}: Distributed swap over time window
+    \item \textbf{Recurring}: Vocabulary restoration
+\end{itemize}
+
+\end{frame}
+
+
+
+%---------------------------------------------------
+\section{Part I: Classification-Based Drift}
+
+\begin{frame}{Part I: Classification-Based Drift}
+
+\textbf{Approach:} Online classifiers process articles sequentially with test-then-train evaluation.
+
+\vspace{0.3cm}
+
+\textbf{Two vectorization strategies:}
+\begin{enumerate}
+    \item \textbf{TF-IDF (sparse)}: Lightweight bag-of-words baseline from \texttt{river}
+    \item \textbf{LLM Embeddings (dense)}: all-MiniLM-L6-v2 Sentence Transformer (384-dim)
+\end{enumerate}
+
+\vspace{0.3cm}
+
+\textbf{Classifiers:}
+\begin{itemize}
+    \item TF-IDF pipeline: MultinomialNB
+    \item LLM pipeline: LogisticRegression (SGD)
+    \item Baseline: Majority-class prediction (rolling 50-sample window)
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{Drift detection:} ADWIN
+
+\end{frame}
+
+\begin{frame}{Synthetic Results: Basic Drift}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{Report/synthetic1.png}
+\end{figure}
+
+\vspace{-0.3cm}
+
+\textbf{Key finding:} ADWIN drift detector successfully identifies all three injected drifts. Fresh models recover to near-100\% accuracy within hundreds of steps.
+
+\end{frame}
+
+\begin{frame}{Synthetic Results: Advanced Drift}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{Report/synthetic2.png}
+\end{figure}
+
+\vspace{-0.3cm}
+
+\textbf{Key finding:} Abrupt and recurring drifts trigger ADWIN alerts. Gradual drift was not detected.
+
+\end{frame}
+
+\begin{frame}{Real-World Results: TF-IDF}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{Report/baseline.png}
+\end{figure}
+
+\vspace{-0.3cm}
+
+\textbf{Critical finding:} Model accuracy overlaps perfectly with majority-class baseline.
+
+
+\end{frame}
+
+\begin{frame}{ Real-World Results: LLM Embeddings}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{Report/llm.png}
+\end{figure}
+
+\vspace{-0.3cm}
+
+\textbf{Finding:} Dense embeddings also perform at baseline level with no improvement over majority-class prediction.
+
+
+\end{frame}
+
+%---------------------------------------------------
+\section{Part II: Distributional Drift Detection}
+
+\begin{frame}{Part II: Distributional Drift Detection}
+
+\textbf{Approach:} Abandon requirement for accurate classification. Instead, detect drift by measuring semantic shifts directly.
+
+\vspace{0.3cm}
+
+\textbf{Pipeline:}
+\begin{enumerate}
+    \item \textbf{Aggregation}: Group articles into daily/weekly windows
+    \item \textbf{Vectorization}: Embed aggregated documents
+    \item \textbf{Distance stream}: Compute cosine distance between consecutive windows
+    \item \textbf{Drift detection}: Apply ADWIN, PageHinkley, and KSWIN to distance stream
+    \item \textbf{Event matching}: Validate detections against known political events (±7--14 days)
+\end{enumerate}
+
+\vspace{0.3cm}
+
+\textbf{Advantages:}
+\begin{itemize}
+    \item No dependency on classification accuracy
+    \item Directly measures semantic shifts in media discourse
+    \item Multiple detectors improve robustness
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Part II Results: TF-IDF (Mixed Stream)}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{Report/h1_tfidf_daily_mixed.png}
+\end{figure}
+
+\vspace{-0.3cm}
+
+\textbf{Observation:} TF-IDF produces clean drift detection with moderate event alignment around conventions and election period.
+
+\end{frame}
+
+\begin{frame}{Part II Results: Embeddings (Mixed Stream)}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{Report/h1_embedding_daily_mixed.png}
+\end{figure}
+
+\vspace{-0.3cm}
+
+\textbf{Observation:} Dense embeddings exhibit noisier signals.
+
+\end{frame}
+
+\begin{frame}{Part II Results: Left-Leaning Stream}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{Report/h1_tfidf_daily_left.png}
+\end{figure}
+
+\vspace{-0.3cm}
+
+\textbf{Key finding:} Sharp drift signals aligned with Democratic-specific events:
+\begin{itemize}
+    \item Biden's withdrawal (July 21, 2024)
+    \item Harris nomination (August 5, 2024)
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Part II Results: Right-Leaning Stream}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{Report/h1_tfidf_daily_right.png}
+\end{figure}
+
+\vspace{-0.3cm}
+
+\textbf{Key finding:} Pronounced drifts synchronized with Republican-specific events:
+\begin{itemize}
+    \item Trump conviction (May 30, 2024)
+    \item Trump assassination attempt (July 13, 2024)
+\end{itemize}
+
+\end{frame}
+
+%---------------------------------------------------
+\section{Conclusions}
+
+\begin{frame}{Summary of Findings}
+
+\vspace{0.3cm}
+
+\begin{block}{Part I: Classification-Based Drift Detection}
+\textbf{Fails} on real-world data. Both TF-IDF and LLM approaches collapse to majority-class prediction, providing zero discriminative signal despite reliable performance on synthetic data.
+\end{block}
+
+\vspace{0.3cm}
+
+\begin{block}{Part II: Distributional Drift Detection}
+\textbf{Succeeds} by abandoning classification. TF-IDF outperforms embeddings. Ideology-specific stream analysis reveals clear event-drift alignment.
+\end{block}
+
+
+\end{frame}
+
+\begin{frame}{Limitations \& Future Work}
+
+\textbf{Limitations:}
+\begin{itemize}
+    \item Small corpus for classification
+    \item Binary left/right categorization is oversimplified
+    \item LLM embeddings not fine-tuned on political discourse
+\end{itemize}
+
+\vspace{0.3cm}
+
+\textbf{Future directions:}
+\begin{itemize}
+    \item Larger, more diverse article corpus with multiple outlets per ideology
+    \item Domain-specific fine-tuned embeddings (RoBERTa on political text)
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+  \centering \Huge
+  \emph{Thank you for your attention!}
+  
+  \vspace{1cm}
+  \Large Any questions?
+\end{frame}
+
+\end{document}

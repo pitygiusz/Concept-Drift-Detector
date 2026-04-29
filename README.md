@@ -2,7 +2,6 @@
 
 An online machine learning project investigating **concept drift in political language**, combining real-world news data, streaming ML, and unsupervised semantic analysis.
 
----
 
 ##  Overview
 
@@ -14,111 +13,56 @@ This project explores:
 -  How **unsupervised distributional methods succeed**  
 -  The difference between **synthetic vs real-world drift behavior**
 
----
 
-##  Key Insight (Main Contribution)
+
+##  Key Insight
 
 > **Drift detection is useless if your model learns nothing.**
 
-From experiments:
+Our experiments include:
 
 - Classification models (**TF-IDF + NB**, **LLM + Logistic Regression**)  
-  → collapse to **majority-class prediction**  
-  → **no drift detection possible**
+  - collapse to **majority-class prediction**  on real-world data, **no drift detection possible**
+  - perform well on synthetic data where signal is strong
 
 - Distributional approach (**cosine distance between embeddings**)  
-  → detects **real-world semantic shifts aligned with events**
+  - detects **real-world semantic shifts aligned with events**
 
- This is the core conclusion of the project 
+Main Contributions include:
+- Custom-made synthetic natural language data generator for controlled drift experiments
+- Extending the `river.base.Transformer` class to combine onlne learning with transformers-based embeddings
+- Cutom-made unsupervised drift detection pipeline using ADWIN, Page-Hinkley, and KSWIN on embedding distances
 
----
+
 
 ##  Methodology
 
-###  Part I — Classification-Based Drift
+###  Part I — Classification-Based Drift (Piotr Jurczyk)
 
-Pipeline:
+#### Pipeline:
+1. Synthetic data generation
+2. TF-IDF + MultinomialNB
+3. SentenceTransformer + Logistic Regression
+4. ADWIN drift detection
 
-Tested:
-- TF-IDF + MultinomialNB
-- SentenceTransformer + Logistic Regression
-- ADWIN drift detection
-
-### Result:
+#### Result:
 - Works on synthetic data   
-- **Fails completely on real data **
+- **Fails completely on real data** - models default to majority class
 
-Reason:
-- Political text is **too noisy and sparse**
-- Models default to majority class
 
----
 
-###  Part II — Distributional Drift
+###  Part II — Distributional Drift (Krzysztof Krawiec)
 
-Pipeline:
+#### Pipeline:
 
-Steps:
 1. Group articles (daily/weekly)
 2. Compute embeddings (MiniLM)
 3. Measure cosine distance between windows
-4. Apply drift detectors:
-   - ADWIN
-   - Page-Hinkley
-   - KSWIN
+4. Apply drift detectors: ADWIN, Page-Hinkley, KSWIN
 
-### Result:
-- Detects meaningful shifts
-- Aligns with political events
-- Works without labels
-
----
-
-##  Experimental Results
-
-###  Synthetic Data
-
-- ADWIN detects abrupt drift reliably  
-- Gradual drift → harder to detect  
-- Recurring drift → detected strongly  
-
- Validates correctness of implementation
-
----
-
-###  Real-World Data (GDELT)
-
-#### Classification Approach
-
-- Accuracy ≈ majority baseline
-- No correlation with:
-  - US Election (Nov 2024)
-  - Inauguration (Jan 2025)
-
- Model learns nothing → drift detection impossible
-
----
-
-####  Distributional Drift
-
-##### Mixed stream:
-- Detects events like:
-  - election period
-  - conventions
-
-##### Ideology-specific streams:
-
- Left-leaning:
-- Biden withdrawal
-- Harris nomination
-- Democratic Convention
-
- Right-leaning:
-- Trump conviction
-- Assassination attempt
-- Republican Convention
-
- **Drift is ideology-dependent** 
+#### Result:
+- Detects **real-world semantic shifts** aligned with political events
+- More robust to noise and sparsity than classification approach
 
 ##  Experiments (Current State)
 
