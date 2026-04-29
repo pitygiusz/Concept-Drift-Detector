@@ -31,16 +31,16 @@ From experiments:
 
     - detects real-world semantic shifts aligned with events
 
-## Main Contributions 
+## Novel Methods
 
 
 - Custom-made synthetic natural language data generator for controlled drift experiments
 - Extending the `river.base.Transformer` class to combine onlne learning with transformers-based embeddings
-- Cutom-made unsupervised drift detection pipeline using ADWIN, Page-Hinkley, and KSWIN on embedding distances
+- Custom-made unsupervised drift detection pipeline using ADWIN, Page-Hinkley, and KSWIN on embedding distances
 
 
 
-##  Methodology
+##  Methodology and Contributions
 
 ###  Part I — Classification-Based Drift (Piotr Jurczyk)
 
