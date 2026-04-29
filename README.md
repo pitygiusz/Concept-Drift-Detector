@@ -22,11 +22,7 @@ This project explores:
 Our experiments include:
 
 - Classification models (**TF-IDF + NB**, **LLM + Logistic Regression**)  
-  - collapse to **majority-class prediction**  on real-world data, **no drift detection possible**
-  - perform well on synthetic data where signal is strong
-
 - Distributional approach (**cosine distance between embeddings**)  
-  - detects **real-world semantic shifts aligned with events**
 
 Main Contributions include:
 - Custom-made synthetic natural language data generator for controlled drift experiments
@@ -62,7 +58,7 @@ Main Contributions include:
 
 #### Result:
 - Detects **real-world semantic shifts** aligned with political events
-- More robust to noise and sparsity than classification approach
+
 
 ##  Experiments (Current State)
 
