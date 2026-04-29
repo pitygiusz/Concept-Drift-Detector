@@ -1,0 +1,6 @@
+stream_group,detector,time_window,drift_score,matched_event,delay_days,is_true_positive
+right,KSWIN,2024-04-21,0.6050183176994324,Trump hush money trial begins,6.0,True
+right,KSWIN,2024-07-22,0.6616650819778442,Biden withdraws from race,1.0,True
+right,KSWIN,2024-09-22,0.8902707099914551,,,False
+right,KSWIN,2024-11-29,0.9056320786476135,,,False
+right,KSWIN,2025-01-31,0.8684434294700623,,,False

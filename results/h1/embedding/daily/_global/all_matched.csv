@@ -1,0 +1,12 @@
+stream_group,detector,time_window,drift_score,matched_event,delay_days,is_true_positive
+left,KSWIN,2024-09-20,0.9504467248916626,,,False
+left,KSWIN,2025-02-06,0.7495614290237427,,,False
+mixed,KSWIN,2024-05-19,0.6272144317626953,,,False
+mixed,KSWIN,2024-06-28,0.8642818927764893,First presidential debate,1.0,True
+mixed,KSWIN,2024-07-18,0.9336228370666504,Republican National Convention,3.0,True
+mixed,KSWIN,2024-10-31,0.6567411422729492,US presidential election,-5.0,True
+right,KSWIN,2024-04-21,0.6050183176994324,Trump hush money trial begins,6.0,True
+right,KSWIN,2024-07-22,0.6616650819778442,Biden withdraws from race,1.0,True
+right,KSWIN,2024-09-22,0.8902707099914551,,,False
+right,KSWIN,2024-11-29,0.9056320786476135,,,False
+right,KSWIN,2025-01-31,0.8684434294700623,,,False

@@ -1,0 +1,15 @@
+stream_group,detector,time_window,drift_score,matched_event,delay_days,is_true_positive
+left,KSWIN,2024-08-02,0.7523961566048042,Harris becomes Democratic nominee,-3.0,True
+left,KSWIN,2024-11-05,0.47952841453238526,US presidential election,0.0,True
+left,KSWIN,2024-12-18,0.8461117720249278,Electoral College vote,1.0,True
+left,KSWIN,2025-02-19,0.7527071430555562,,,False
+mixed,KSWIN,2024-04-08,0.8577578118045757,Trump hush money trial begins,-7.0,True
+mixed,KSWIN,2024-05-03,0.5824992461331199,,,False
+mixed,KSWIN,2024-08-14,0.8418793391579571,Democratic National Convention,-5.0,True
+mixed,KSWIN,2024-09-04,0.6807466344134498,Second presidential debate,-6.0,True
+mixed,KSWIN,2024-11-11,0.8299558928572883,Election results confirmed,5.0,True
+mixed,KSWIN,2024-12-15,0.8534038080780106,Electoral College vote,-2.0,True
+mixed,KSWIN,2025-02-02,0.5503115074309197,,,False
+right,KSWIN,2024-08-25,0.7874548100420307,Democratic National Convention,6.0,True
+right,KSWIN,2024-11-16,0.7405971994993791,,,False
+right,KSWIN,2025-01-12,0.7057154429642901,Congress certifies election,6.0,True
