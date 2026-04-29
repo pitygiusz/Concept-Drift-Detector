@@ -1,0 +1,8 @@
+stream_group,detector,time_window,drift_score,matched_event,delay_days,is_true_positive
+mixed,KSWIN,2024-04-08,0.8577578118045757,Trump hush money trial begins,-7.0,True
+mixed,KSWIN,2024-05-03,0.5824992461331199,,,False
+mixed,KSWIN,2024-08-14,0.8418793391579571,Democratic National Convention,-5.0,True
+mixed,KSWIN,2024-09-04,0.6807466344134498,Second presidential debate,-6.0,True
+mixed,KSWIN,2024-11-11,0.8299558928572883,Election results confirmed,5.0,True
+mixed,KSWIN,2024-12-15,0.8534038080780106,Electoral College vote,-2.0,True
+mixed,KSWIN,2025-02-02,0.5503115074309197,,,False

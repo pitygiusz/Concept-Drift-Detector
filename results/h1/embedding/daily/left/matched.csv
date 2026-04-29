@@ -1,0 +1,3 @@
+stream_group,detector,time_window,drift_score,matched_event,delay_days,is_true_positive
+left,KSWIN,2024-09-20,0.9504467248916626,,,False
+left,KSWIN,2025-02-06,0.7495614290237427,,,False

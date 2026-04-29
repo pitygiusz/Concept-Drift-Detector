@@ -1,0 +1,3 @@
+stream_group,detector,time_window,drift_score,n_articles
+left,KSWIN,2024-09-20,0.9504467248916626,5
+left,KSWIN,2025-02-06,0.7495614290237427,7

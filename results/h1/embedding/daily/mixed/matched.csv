@@ -1,0 +1,5 @@
+stream_group,detector,time_window,drift_score,matched_event,delay_days,is_true_positive
+mixed,KSWIN,2024-05-19,0.6272144317626953,,,False
+mixed,KSWIN,2024-06-28,0.8642818927764893,First presidential debate,1.0,True
+mixed,KSWIN,2024-07-18,0.9336228370666504,Republican National Convention,3.0,True
+mixed,KSWIN,2024-10-31,0.6567411422729492,US presidential election,-5.0,True

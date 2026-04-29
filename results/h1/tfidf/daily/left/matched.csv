@@ -1,0 +1,5 @@
+stream_group,detector,time_window,drift_score,matched_event,delay_days,is_true_positive
+left,KSWIN,2024-08-02,0.7523961566048042,Harris becomes Democratic nominee,-3.0,True
+left,KSWIN,2024-11-05,0.47952841453238526,US presidential election,0.0,True
+left,KSWIN,2024-12-18,0.8461117720249278,Electoral College vote,1.0,True
+left,KSWIN,2025-02-19,0.7527071430555562,,,False
