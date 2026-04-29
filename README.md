@@ -120,6 +120,21 @@ Steps:
 
 👉 **Drift is ideology-dependent** 
 
+## 🧪 Experiments (Current State)
+
+At this stage of the project, most experiments are conducted and organized within the `notebooks/` directory.  
+These notebooks serve as the primary interface for running analyses, visualizing results, and iterating on ideas.
+
+While this approach enables fast experimentation and flexibility during development, the structure is currently **not fully modularized**.
+
+🚧 In future iterations, the project will be refactored to:
+- move core experiment logic into reusable Python modules (`src/experiments/`)
+- provide clean CLI entry points for running experiments
+- standardize configuration and result logging
+- separate exploratory analysis from reproducible pipelines
+
+The long-term goal is to transition from a **research-oriented notebook workflow** to a **fully structured, production-ready experiment framework**.
+
 ## ⚙️ Installation
 
 ```bash
