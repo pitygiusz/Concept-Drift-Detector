@@ -1,0 +1,8 @@
+stream_group,detector,time_window,drift_score,matched_event,delay_days,is_true_positive
+mixed,KSWIN,2024-04-11,0.8172761761068283,,,False
+mixed,KSWIN,2024-05-03,0.7460342275377426,,,False
+mixed,KSWIN,2024-06-01,0.815983280974262,Trump conviction,2.0,True
+mixed,KSWIN,2024-07-30,0.8975392148932831,Harris becomes Democratic nominee,-6.0,True
+mixed,KSWIN,2024-09-15,0.8288724424760577,Second presidential debate,5.0,True
+mixed,KSWIN,2024-12-20,0.7211793367680542,,,False
+mixed,KSWIN,2025-01-17,0.7752231158693776,Trump inauguration,-3.0,True
