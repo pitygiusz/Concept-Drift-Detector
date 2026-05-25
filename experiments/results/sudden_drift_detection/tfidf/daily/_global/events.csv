@@ -1,0 +1,11 @@
+event,event_date,event_window,time_window_code,time_window_name
+Start of campaign,2024-03-05,2024-03-05,D,daily
+Trump conviction,2024-05-30,2024-05-30,D,daily
+First presidential debate,2024-06-27,2024-06-27,D,daily
+Trump assassination attempt,2024-07-13,2024-07-13,D,daily
+Biden withdraws from race,2024-07-21,2024-07-21,D,daily
+Harris becomes Democratic nominee,2024-08-05,2024-08-05,D,daily
+Second presidential debate,2024-09-10,2024-09-10,D,daily
+Vice presidential debate,2024-10-01,2024-10-01,D,daily
+US presidential election,2024-11-05,2024-11-05,D,daily
+Trump inauguration,2025-01-20,2025-01-20,D,daily

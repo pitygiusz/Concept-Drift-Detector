@@ -1,0 +1,8 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+embedding,right_none_weekly,right_none,right,none,PageHinkley,2024-03-04,W,weekly,0.706494779179593,Start of campaign,-1.0,True
+embedding,right_none_weekly,right_none,right,none,PageHinkley,2024-04-15,W,weekly,0.4470462712485165,,,False
+embedding,right_none_weekly,right_none,right,none,PageHinkley,2024-07-15,W,weekly,0.5925446684946768,Trump assassination attempt,2.0,True
+embedding,right_none_weekly,right_none,right,none,PageHinkley,2024-08-19,W,weekly,0.5130125596008897,Harris becomes Democratic nominee,14.0,True
+embedding,right_none_weekly,right_none,right,none,PageHinkley,2024-12-02,W,weekly,0.5840699271173564,,,False
+embedding,right_none_weekly,right_none,right,none,PageHinkley,2025-01-06,W,weekly,0.5888129572472772,Trump inauguration,-14.0,True
+embedding,right_none_weekly,right_none,right,none,PageHinkley,2025-01-27,W,weekly,0.4725711394903166,Trump inauguration,7.0,True

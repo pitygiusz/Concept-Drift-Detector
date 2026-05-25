@@ -1,0 +1,4 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+tfidf,left_none_daily,left_none,left,none,PageHinkley,2024-07-16,D,daily,0.912206577920844,Trump assassination attempt,3.0,True
+tfidf,left_none_daily,left_none,left,none,PageHinkley,2024-08-07,D,daily,0.8566590068267051,Harris becomes Democratic nominee,2.0,True
+tfidf,left_none_daily,left_none,left,none,PageHinkley,2024-12-09,D,daily,0.8798505731046911,,,False

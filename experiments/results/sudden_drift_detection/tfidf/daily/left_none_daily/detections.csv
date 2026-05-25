@@ -1,0 +1,4 @@
+stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,n_articles,left_articles,right_articles,feature_type
+left_none_daily,left_none,left,none,PageHinkley,2024-07-16,D,daily,0.912206577920844,6,6,0,tfidf
+left_none_daily,left_none,left,none,PageHinkley,2024-08-07,D,daily,0.8566590068267051,5,5,0,tfidf
+left_none_daily,left_none,left,none,PageHinkley,2024-12-09,D,daily,0.8798505731046911,5,5,0,tfidf

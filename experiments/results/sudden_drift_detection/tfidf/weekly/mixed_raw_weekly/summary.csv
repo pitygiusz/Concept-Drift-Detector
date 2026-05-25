@@ -1,0 +1,4 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window_code,time_window_name,detections,true_positives,false_positives,precision_like,avg_delay_days,events_detected,events_missed,event_recall
+tfidf,mixed_raw_weekly,mixed_raw,mixed,raw,ADWIN,W,weekly,0,0,0,,,0,10,0.0
+tfidf,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,W,weekly,4,1,3,0.25,1.0,1,9,0.1
+tfidf,mixed_raw_weekly,mixed_raw,mixed,raw,KSWIN,W,weekly,0,0,0,,,0,10,0.0

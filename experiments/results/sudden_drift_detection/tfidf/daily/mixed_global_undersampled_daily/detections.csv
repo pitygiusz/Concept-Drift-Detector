@@ -1,0 +1,14 @@
+stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,n_articles,left_articles,right_articles,feature_type
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-02-22,D,daily,0.9139946400285539,5,2,3,tfidf
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-04-17,D,daily,0.9162910586676168,5,3,2,tfidf
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-05-03,D,daily,0.8661994126128345,7,6,1,tfidf
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-05-10,D,daily,0.9710648784247529,5,5,0,tfidf
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-05-28,D,daily,0.9478937021898655,9,3,6,tfidf
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,KSWIN,2024-06-04,D,daily,0.8721552873331927,8,6,2,tfidf
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-07-30,D,daily,0.9582412648484434,5,1,4,tfidf
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-08-13,D,daily,0.9145871446072167,5,3,2,tfidf
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-09-02,D,daily,0.9061832929914875,7,4,3,tfidf
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-10-03,D,daily,0.8511187327380688,7,2,5,tfidf
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-10-20,D,daily,0.9079957667699609,5,2,3,tfidf
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,KSWIN,2024-10-21,D,daily,0.8854104459096639,11,10,1,tfidf
+mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-11-20,D,daily,0.8867323515365639,8,3,5,tfidf

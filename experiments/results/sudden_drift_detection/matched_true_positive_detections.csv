@@ -1,0 +1,151 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+tfidf,left_none_daily,left_none,left,none,PageHinkley,2024-07-16,D,daily,0.912206577920844,Trump assassination attempt,3.0,True
+tfidf,left_none_daily,left_none,left,none,PageHinkley,2024-08-07,D,daily,0.8566590068267051,Harris becomes Democratic nominee,2.0,True
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-05-28,D,daily,0.9478937021898655,Trump conviction,-2.0,True
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,KSWIN,2024-06-04,D,daily,0.8721552873331927,Trump conviction,5.0,True
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-07-30,D,daily,0.9582412648484434,Harris becomes Democratic nominee,-6.0,True
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-10-03,D,daily,0.8511187327380688,Vice presidential debate,2.0,True
+tfidf,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-07-03,D,daily,0.9314699369585012,First presidential debate,6.0,True
+tfidf,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-07-25,D,daily,0.9765738880680777,Biden withdraws from race,4.0,True
+tfidf,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-10-03,D,daily,0.8646348750026148,Vice presidential debate,2.0,True
+tfidf,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,KSWIN,2025-01-13,D,daily,0.8398799633740822,Trump inauguration,-7.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-03-09,D,daily,0.8715689766379817,Start of campaign,4.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-05-25,D,daily,0.8793097462136833,Trump conviction,-5.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,KSWIN,2024-05-28,D,daily,0.8532925169190096,Trump conviction,-2.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-06-23,D,daily,0.8571292926712232,First presidential debate,-4.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,KSWIN,2024-06-29,D,daily,0.6001223372635613,First presidential debate,2.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-07-16,D,daily,0.8625105253040178,Trump assassination attempt,3.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,KSWIN,2024-07-23,D,daily,0.5141281942138727,Biden withdraws from race,2.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-07-25,D,daily,0.8774101949961586,Biden withdraws from race,4.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-08-06,D,daily,0.810999819214944,Harris becomes Democratic nominee,1.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-08-12,D,daily,0.7391293691719016,Harris becomes Democratic nominee,7.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-09-03,D,daily,0.7571992703878175,Second presidential debate,-7.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-09-08,D,daily,0.7015477035493975,Second presidential debate,-2.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-09-29,D,daily,0.6100954277360049,Vice presidential debate,-2.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-10-04,D,daily,0.6212343752472305,Vice presidential debate,3.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,KSWIN,2024-10-06,D,daily,0.8169699945605113,Vice presidential debate,5.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-11-04,D,daily,0.6298851732948111,US presidential election,-1.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-11-10,D,daily,0.6875342369858115,US presidential election,5.0,True
+tfidf,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2025-01-27,D,daily,0.7971405950034571,Trump inauguration,7.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-03-10,D,daily,0.7613115216926056,Start of campaign,5.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-05-28,D,daily,0.8319068202426294,Trump conviction,-2.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-06-24,D,daily,0.7992384776412962,First presidential debate,-3.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,KSWIN,2024-07-21,D,daily,0.4964740034563693,Biden withdraws from race,0.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-07-25,D,daily,0.8942375677463779,Biden withdraws from race,4.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-08-06,D,daily,0.8109889177733899,Harris becomes Democratic nominee,1.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-10-03,D,daily,0.7007509472092138,Vice presidential debate,2.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-11-04,D,daily,0.630020680994221,US presidential election,-1.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2025-01-27,D,daily,0.7970796780520901,Trump inauguration,7.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-05-26,D,daily,0.8498643066158809,Trump conviction,-4.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-06-24,D,daily,0.761129237774008,First presidential debate,-3.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-07-06,D,daily,0.8702302328374967,Trump assassination attempt,-7.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-07-14,D,daily,0.8197035432147075,Trump assassination attempt,1.0,True
+tfidf,right_none_daily,right_none,right,none,KSWIN,2024-07-21,D,daily,0.5219586253336661,Biden withdraws from race,0.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-07-27,D,daily,0.7636283420566189,Biden withdraws from race,6.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-08-12,D,daily,0.7391293691719016,Harris becomes Democratic nominee,7.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-09-03,D,daily,0.8232860611965654,Second presidential debate,-7.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-09-08,D,daily,0.7014971749456473,Second presidential debate,-2.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-10-03,D,daily,0.6889819975085834,Vice presidential debate,2.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2025-01-14,D,daily,0.7938699706678668,Trump inauguration,-6.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2025-01-20,D,daily,0.8068162205119735,Trump inauguration,0.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2025-01-25,D,daily,0.6769334651414237,Trump inauguration,5.0,True
+embedding,left_none_daily,left_none,left,none,PageHinkley,2024-07-17,D,daily,0.8491592547081099,Trump assassination attempt,4.0,True
+embedding,left_none_daily,left_none,left,none,PageHinkley,2024-08-07,D,daily,1.0112002230031258,Harris becomes Democratic nominee,2.0,True
+embedding,left_none_daily,left_none,left,none,PageHinkley,2025-01-23,D,daily,0.9266471120306419,Trump inauguration,3.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-02-29,D,daily,1.0483214168497004,Start of campaign,-5.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-05-31,D,daily,0.7463896340180802,Trump conviction,1.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-06-28,D,daily,0.8227633341037305,First presidential debate,1.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-07-14,D,daily,0.7346337338054673,Trump assassination attempt,1.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-09-09,D,daily,0.6443865645414958,Second presidential debate,-1.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,KSWIN,2024-09-16,D,daily,0.7022119904429691,Second presidential debate,6.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-11-05,D,daily,0.7212769502512357,US presidential election,0.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2025-01-16,D,daily,0.7515423218022725,Trump inauguration,-4.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-02-27,D,daily,0.7540364509554789,Start of campaign,-7.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,KSWIN,2024-03-11,D,daily,0.4295627950544406,Start of campaign,6.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-05-28,D,daily,0.8289162316544331,Trump conviction,-2.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,KSWIN,2024-06-20,D,daily,0.4009832109293854,First presidential debate,-7.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-06-24,D,daily,0.6947128034879895,First presidential debate,-3.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-07-03,D,daily,0.7537641047442518,First presidential debate,6.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-07-23,D,daily,0.8542464764883237,Biden withdraws from race,2.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-08-06,D,daily,0.6551244185173006,Harris becomes Democratic nominee,1.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-09-03,D,daily,0.6143569761652514,Second presidential debate,-7.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-09-10,D,daily,0.5730101930862136,Second presidential debate,0.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-09-30,D,daily,0.538468837607863,Vice presidential debate,-1.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-11-05,D,daily,0.6613043848331182,US presidential election,0.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2025-01-13,D,daily,0.6770027562490701,Trump inauguration,-7.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-02-29,D,daily,1.0049137191925894,Start of campaign,-5.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-05-28,D,daily,0.5805025289649859,Trump conviction,-2.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-06-24,D,daily,0.6471363178412497,First presidential debate,-3.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-07-04,D,daily,0.696204175025876,First presidential debate,7.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,KSWIN,2024-07-11,D,daily,0.2995016053577516,Trump assassination attempt,-2.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-07-17,D,daily,0.7475939086292297,Trump assassination attempt,4.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-07-23,D,daily,0.6559552017613951,Biden withdraws from race,2.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-08-05,D,daily,0.9067883647613629,Harris becomes Democratic nominee,0.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-09-03,D,daily,0.5843845726683176,Second presidential debate,-7.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-09-09,D,daily,0.6460068897416018,Second presidential debate,-1.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-11-04,D,daily,0.6095686304164667,US presidential election,-1.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2025-01-13,D,daily,0.7137695137093452,Trump inauguration,-7.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2025-01-27,D,daily,0.6836012828718229,Trump inauguration,7.0,True
+embedding,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-05-28,D,daily,0.6275424856276266,Trump conviction,-2.0,True
+embedding,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-06-25,D,daily,0.702636586076911,First presidential debate,-2.0,True
+embedding,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-07-17,D,daily,0.7625079393066696,Trump assassination attempt,4.0,True
+embedding,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-07-23,D,daily,0.6359194544170145,Biden withdraws from race,2.0,True
+embedding,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-08-01,D,daily,0.48075767918261414,Harris becomes Democratic nominee,-4.0,True
+embedding,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-08-06,D,daily,0.7750642466764419,Harris becomes Democratic nominee,1.0,True
+embedding,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-09-09,D,daily,0.5439228493169309,Second presidential debate,-1.0,True
+embedding,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-09-14,D,daily,0.6812769753979312,Second presidential debate,4.0,True
+embedding,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-10-02,D,daily,0.5376589036298696,Vice presidential debate,1.0,True
+embedding,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2025-01-13,D,daily,0.714896369296002,Trump inauguration,-7.0,True
+embedding,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2025-01-27,D,daily,0.640434312429054,Trump inauguration,7.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-02-27,D,daily,0.6409896942746804,Start of campaign,-7.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-03-11,D,daily,0.505164426367106,Start of campaign,6.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-05-26,D,daily,0.6473335693533533,Trump conviction,-4.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-06-23,D,daily,0.5803000651105745,First presidential debate,-4.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-07-06,D,daily,0.6013372876256833,Trump assassination attempt,-7.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-07-15,D,daily,0.5338049961682451,Trump assassination attempt,2.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-07-29,D,daily,0.5042871346298057,Harris becomes Democratic nominee,-7.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-08-06,D,daily,0.6051189358504019,Harris becomes Democratic nominee,1.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-09-13,D,daily,0.5782713020797162,Second presidential debate,3.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-10-02,D,daily,0.6128602967687501,Vice presidential debate,1.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-10-08,D,daily,0.5217223560025408,Vice presidential debate,7.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2025-01-15,D,daily,0.4794121517534343,Trump inauguration,-5.0,True
+tfidf,left_none_weekly,left_none,left,none,PageHinkley,2025-01-27,W,weekly,0.8694298371029354,Trump inauguration,7.0,True
+tfidf,mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-07-22,W,weekly,0.8900339387982261,Biden withdraws from race,1.0,True
+tfidf,mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-11-18,W,weekly,0.7394676996368705,US presidential election,13.0,True
+tfidf,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-07-22,W,weekly,0.8867256009203126,Biden withdraws from race,1.0,True
+tfidf,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-07-22,W,weekly,0.5441372105367829,Biden withdraws from race,1.0,True
+tfidf,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-06-03,W,weekly,0.5493012251055367,Trump conviction,4.0,True
+tfidf,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-07-08,W,weekly,0.5238027230962186,Trump assassination attempt,-5.0,True
+tfidf,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-07-29,W,weekly,0.6382462265105029,Harris becomes Democratic nominee,-7.0,True
+tfidf,right_none_weekly,right_none,right,none,PageHinkley,2025-01-13,W,weekly,0.32500844944080354,Trump inauguration,-7.0,True
+embedding,left_none_weekly,left_none,left,none,PageHinkley,2024-02-26,W,weekly,0.700264376174716,Start of campaign,-8.0,True
+embedding,left_none_weekly,left_none,left,none,PageHinkley,2024-06-24,W,weekly,0.9065230889610842,First presidential debate,-3.0,True
+embedding,left_none_weekly,left_none,left,none,PageHinkley,2024-11-04,W,weekly,0.8482883015702831,US presidential election,-1.0,True
+embedding,mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-02-26,W,weekly,0.700264376174716,Start of campaign,-8.0,True
+embedding,mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-06-17,W,weekly,0.8751451938681195,First presidential debate,-10.0,True
+embedding,mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-08-05,W,weekly,0.7624398489088917,Harris becomes Democratic nominee,0.0,True
+embedding,mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-10-14,W,weekly,0.7097622495602882,Vice presidential debate,13.0,True
+embedding,mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2025-01-20,W,weekly,0.6121706683777229,Trump inauguration,0.0,True
+embedding,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-02-26,W,weekly,0.8892282123902422,Start of campaign,-8.0,True
+embedding,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-06-03,W,weekly,0.7264984506353089,Trump conviction,4.0,True
+embedding,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-07-01,W,weekly,0.8796143582078751,First presidential debate,4.0,True
+embedding,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-08-05,W,weekly,0.7681027831767022,Harris becomes Democratic nominee,0.0,True
+embedding,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-09-09,W,weekly,0.7130836038004198,Second presidential debate,-1.0,True
+embedding,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-10-14,W,weekly,0.6287584210273562,Vice presidential debate,13.0,True
+embedding,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-11-04,W,weekly,0.7203519104213434,US presidential election,-1.0,True
+embedding,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2025-01-20,W,weekly,0.6276301235534183,Trump inauguration,0.0,True
+embedding,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-03-04,W,weekly,0.6878819285873802,Start of campaign,-1.0,True
+embedding,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-06-17,W,weekly,0.8291299002962438,First presidential debate,-10.0,True
+embedding,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-08-05,W,weekly,0.789790090310043,Harris becomes Democratic nominee,0.0,True
+embedding,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2025-01-20,W,weekly,0.6323068838856329,Trump inauguration,0.0,True
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-02-26,W,weekly,0.6526980610270998,Start of campaign,-8.0,True
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-05-27,W,weekly,0.6340633310388715,Trump conviction,-3.0,True
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-07-15,W,weekly,0.6041852647496528,Trump assassination attempt,2.0,True
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-08-12,W,weekly,0.8329544555597705,Harris becomes Democratic nominee,7.0,True
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-09-02,W,weekly,0.6147286379783374,Second presidential debate,-8.0,True
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2025-01-13,W,weekly,0.6371911423685368,Trump inauguration,-7.0,True
+embedding,right_none_weekly,right_none,right,none,PageHinkley,2024-03-04,W,weekly,0.706494779179593,Start of campaign,-1.0,True
+embedding,right_none_weekly,right_none,right,none,PageHinkley,2024-07-15,W,weekly,0.5925446684946768,Trump assassination attempt,2.0,True
+embedding,right_none_weekly,right_none,right,none,PageHinkley,2024-08-19,W,weekly,0.5130125596008897,Harris becomes Democratic nominee,14.0,True
+embedding,right_none_weekly,right_none,right,none,PageHinkley,2025-01-06,W,weekly,0.5888129572472772,Trump inauguration,-14.0,True
+embedding,right_none_weekly,right_none,right,none,PageHinkley,2025-01-27,W,weekly,0.4725711394903166,Trump inauguration,7.0,True

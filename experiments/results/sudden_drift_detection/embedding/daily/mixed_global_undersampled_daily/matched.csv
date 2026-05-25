@@ -1,0 +1,23 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-02-22,D,daily,0.7536647913025651,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-02-29,D,daily,1.0483214168497004,Start of campaign,-5.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-03-27,D,daily,0.6979318731734391,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-04-17,D,daily,0.9181523617998413,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-05-05,D,daily,0.6933115856566179,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-05-31,D,daily,0.7463896340180802,Trump conviction,1.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-06-13,D,daily,0.6060526027071794,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-06-28,D,daily,0.8227633341037305,First presidential debate,1.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-07-14,D,daily,0.7346337338054673,Trump assassination attempt,1.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,KSWIN,2024-08-13,D,daily,0.5319875132014199,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-08-30,D,daily,0.7200187239659569,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-09-09,D,daily,0.6443865645414958,Second presidential debate,-1.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,KSWIN,2024-09-16,D,daily,0.7022119904429691,Second presidential debate,6.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-10-20,D,daily,0.6990209275993451,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-11-05,D,daily,0.7212769502512357,US presidential election,0.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-11-24,D,daily,0.8043333451849466,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-12-04,D,daily,0.8566166911939973,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,KSWIN,2024-12-04,D,daily,0.8566166911939973,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-12-18,D,daily,0.7107664932728165,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2025-01-16,D,daily,0.7515423218022725,Trump inauguration,-4.0,True
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,KSWIN,2025-01-29,D,daily,0.361865497294638,,,False
+embedding,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2025-02-09,D,daily,0.6637819649426449,,,False

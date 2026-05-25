@@ -1,0 +1,9 @@
+stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,n_articles,left_articles,right_articles,feature_type
+left_none_daily,left_none,left,none,PageHinkley,2024-04-01,D,daily,0.8258332343446437,5,5,0,embedding
+left_none_daily,left_none,left,none,PageHinkley,2024-04-24,D,daily,0.8446192543458639,6,6,0,embedding
+left_none_daily,left_none,left,none,PageHinkley,2024-07-17,D,daily,0.8491592547081099,5,5,0,embedding
+left_none_daily,left_none,left,none,PageHinkley,2024-08-07,D,daily,1.0112002230031258,5,5,0,embedding
+left_none_daily,left_none,left,none,PageHinkley,2024-09-20,D,daily,0.8671679301292348,5,5,0,embedding
+left_none_daily,left_none,left,none,KSWIN,2024-10-25,D,daily,0.6566244237583627,5,5,0,embedding
+left_none_daily,left_none,left,none,PageHinkley,2024-12-03,D,daily,0.8278549865559715,5,5,0,embedding
+left_none_daily,left_none,left,none,PageHinkley,2025-01-23,D,daily,0.9266471120306419,7,7,0,embedding

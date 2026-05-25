@@ -1,0 +1,4 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window_code,time_window_name,detections,true_positives,false_positives,precision_like,avg_delay_days,events_detected,events_missed,event_recall
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,ADWIN,W,weekly,0,0,0,,,0,10,0.0
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,W,weekly,9,6,3,0.6666666666666666,-2.8333333333333335,6,4,0.6
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,KSWIN,W,weekly,0,0,0,,,0,10,0.0

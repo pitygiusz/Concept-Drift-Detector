@@ -1,0 +1,26 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-02-22,D,daily,0.751259861196268,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-03-10,D,daily,0.7613115216926056,Start of campaign,5.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-03-17,D,daily,0.8303250169895602,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-04-07,D,daily,0.8596395140700264,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-05-08,D,daily,0.7399609058803529,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-05-28,D,daily,0.8319068202426294,Trump conviction,-2.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-06-15,D,daily,0.850273112656567,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-06-24,D,daily,0.7992384776412962,First presidential debate,-3.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-07-05,D,daily,0.8188984320079319,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,KSWIN,2024-07-21,D,daily,0.4964740034563693,Biden withdraws from race,0.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-07-25,D,daily,0.8942375677463779,Biden withdraws from race,4.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-08-06,D,daily,0.8109889177733899,Harris becomes Democratic nominee,1.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-08-17,D,daily,0.7634567373767925,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-08-28,D,daily,0.6559958821376282,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-10-03,D,daily,0.7007509472092138,Vice presidential debate,2.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-10-15,D,daily,0.8950581065014908,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-10-21,D,daily,0.7387874231100284,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-10-27,D,daily,0.6966826396184478,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-11-04,D,daily,0.630020680994221,US presidential election,-1.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-11-13,D,daily,0.6948520540495813,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-11-26,D,daily,0.8132778073885303,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-12-12,D,daily,0.8822344775727939,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-12-23,D,daily,0.8516958005664461,,,False
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2025-01-27,D,daily,0.7970796780520901,Trump inauguration,7.0,True
+tfidf,mixed_split_minority_day_daily,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2025-02-10,D,daily,0.7452819047800254,,,False

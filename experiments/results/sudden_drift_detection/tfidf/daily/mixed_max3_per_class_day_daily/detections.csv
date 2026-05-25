@@ -1,0 +1,13 @@
+stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,n_articles,left_articles,right_articles,feature_type
+mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-02-23,D,daily,0.9073643581866108,6,3,3,tfidf
+mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-03-13,D,daily,0.9033839346404251,6,3,3,tfidf
+mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-04-12,D,daily,0.9131709838390083,5,2,3,tfidf
+mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-05-10,D,daily,0.9565753222610505,6,3,3,tfidf
+mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-07-03,D,daily,0.9314699369585012,5,2,3,tfidf
+mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-07-25,D,daily,0.9765738880680777,6,3,3,tfidf
+mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-10-03,D,daily,0.8646348750026148,5,2,3,tfidf
+mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-10-15,D,daily,0.9317421225487664,5,2,3,tfidf
+mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,KSWIN,2024-10-21,D,daily,0.9264476816072357,6,3,3,tfidf
+mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-11-21,D,daily,0.8960810016181879,6,3,3,tfidf
+mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,KSWIN,2024-11-27,D,daily,0.9013822336797918,6,3,3,tfidf
+mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,KSWIN,2025-01-13,D,daily,0.8398799633740822,6,3,3,tfidf

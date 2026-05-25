@@ -1,0 +1,24 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+tfidf,left_none_weekly,left_none,left,none,PageHinkley,2024-11-25,W,weekly,0.9098948716494853,,,False
+tfidf,left_none_weekly,left_none,left,none,PageHinkley,2025-01-27,W,weekly,0.8694298371029354,Trump inauguration,7.0,True
+tfidf,mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-03-25,W,weekly,0.7640485394203297,,,False
+tfidf,mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-07-22,W,weekly,0.8900339387982261,Biden withdraws from race,1.0,True
+tfidf,mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-10-21,W,weekly,0.73569785921789,,,False
+tfidf,mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-11-18,W,weekly,0.7394676996368705,US presidential election,13.0,True
+tfidf,mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-12-30,W,weekly,0.9245284730550516,,,False
+tfidf,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-04-01,W,weekly,0.8010215160313875,,,False
+tfidf,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-07-22,W,weekly,0.8867256009203126,Biden withdraws from race,1.0,True
+tfidf,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-11-25,W,weekly,0.797077265577659,,,False
+tfidf,mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-12-30,W,weekly,0.9042035804400067,,,False
+tfidf,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-04-15,W,weekly,0.6026962343834528,,,False
+tfidf,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-07-22,W,weekly,0.5441372105367829,Biden withdraws from race,1.0,True
+tfidf,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-11-25,W,weekly,0.38948296131460636,,,False
+tfidf,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-12-30,W,weekly,0.5987243240047505,,,False
+tfidf,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-04-22,W,weekly,0.5829114661784607,,,False
+tfidf,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-06-03,W,weekly,0.5493012251055367,Trump conviction,4.0,True
+tfidf,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-07-08,W,weekly,0.5238027230962186,Trump assassination attempt,-5.0,True
+tfidf,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-07-29,W,weekly,0.6382462265105029,Harris becomes Democratic nominee,-7.0,True
+tfidf,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-12-02,W,weekly,0.5130332695429881,,,False
+tfidf,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-12-23,W,weekly,0.6822051836680907,,,False
+tfidf,right_none_weekly,right_none,right,none,PageHinkley,2024-03-25,W,weekly,0.5093351243148295,,,False
+tfidf,right_none_weekly,right_none,right,none,PageHinkley,2025-01-13,W,weekly,0.32500844944080354,Trump inauguration,-7.0,True
