@@ -1,0 +1,5 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+tfidf,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-04-15,W,weekly,0.6026962343834528,,,False
+tfidf,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-07-22,W,weekly,0.5441372105367829,Biden withdraws from race,1.0,True
+tfidf,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-11-25,W,weekly,0.38948296131460636,,,False
+tfidf,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-12-30,W,weekly,0.5987243240047505,,,False

@@ -1,0 +1,10 @@
+stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,n_articles,left_articles,right_articles,feature_type
+mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-02-26,W,weekly,0.6526980610270998,278,139,139,embedding
+mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-03-25,W,weekly,0.6676006272296487,196,98,98,embedding
+mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-04-22,W,weekly,0.8602732606390217,146,73,73,embedding
+mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-05-27,W,weekly,0.6340633310388715,114,57,57,embedding
+mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-07-15,W,weekly,0.6041852647496528,172,86,86,embedding
+mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-08-12,W,weekly,0.8329544555597705,148,74,74,embedding
+mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-09-02,W,weekly,0.6147286379783374,140,70,70,embedding
+mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-11-25,W,weekly,0.626618682130769,200,100,100,embedding
+mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2025-01-13,W,weekly,0.6371911423685368,172,86,86,embedding

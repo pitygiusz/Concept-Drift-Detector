@@ -1,0 +1,14 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-02-22,D,daily,0.9139946400285539,,,False
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-04-17,D,daily,0.9162910586676168,,,False
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-05-03,D,daily,0.8661994126128345,,,False
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-05-10,D,daily,0.9710648784247529,,,False
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-05-28,D,daily,0.9478937021898655,Trump conviction,-2.0,True
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,KSWIN,2024-06-04,D,daily,0.8721552873331927,Trump conviction,5.0,True
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-07-30,D,daily,0.9582412648484434,Harris becomes Democratic nominee,-6.0,True
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-08-13,D,daily,0.9145871446072167,,,False
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-09-02,D,daily,0.9061832929914875,,,False
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-10-03,D,daily,0.8511187327380688,Vice presidential debate,2.0,True
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-10-20,D,daily,0.9079957667699609,,,False
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,KSWIN,2024-10-21,D,daily,0.8854104459096639,,,False
+tfidf,mixed_global_undersampled_daily,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-11-20,D,daily,0.8867323515365639,,,False

@@ -1,0 +1,36 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-02-19,D,daily,0.7903764272070462,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-03-17,D,daily,0.8580443110134108,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-03-25,D,daily,0.8583745665627642,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-04-06,D,daily,0.7946810948860179,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-04-14,D,daily,0.9106158220121314,,,False
+tfidf,right_none_daily,right_none,right,none,KSWIN,2024-04-28,D,daily,0.6705567343778306,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-05-06,D,daily,0.7738391361590355,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-05-14,D,daily,0.7910845074454764,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-05-19,D,daily,0.8312516222909,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-05-26,D,daily,0.8498643066158809,Trump conviction,-4.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-06-09,D,daily,0.8136678977986156,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-06-15,D,daily,0.861649887485906,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-06-24,D,daily,0.761129237774008,First presidential debate,-3.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-07-06,D,daily,0.8702302328374967,Trump assassination attempt,-7.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-07-14,D,daily,0.8197035432147075,Trump assassination attempt,1.0,True
+tfidf,right_none_daily,right_none,right,none,KSWIN,2024-07-21,D,daily,0.5219586253336661,Biden withdraws from race,0.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-07-27,D,daily,0.7636283420566189,Biden withdraws from race,6.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-08-12,D,daily,0.7391293691719016,Harris becomes Democratic nominee,7.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-08-17,D,daily,0.8060522142188609,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-08-26,D,daily,0.639130989925881,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-09-03,D,daily,0.8232860611965654,Second presidential debate,-7.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-09-08,D,daily,0.7014971749456473,Second presidential debate,-2.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-10-03,D,daily,0.6889819975085834,Vice presidential debate,2.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-10-20,D,daily,0.7976787163853977,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-11-16,D,daily,0.8221480187047063,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-11-25,D,daily,0.8789251396204234,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-12-14,D,daily,0.723986086590453,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2024-12-22,D,daily,0.7449993937799437,,,False
+tfidf,right_none_daily,right_none,right,none,KSWIN,2024-12-25,D,daily,0.787090153652837,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2025-01-05,D,daily,0.8359068542274306,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2025-01-14,D,daily,0.7938699706678668,Trump inauguration,-6.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2025-01-20,D,daily,0.8068162205119735,Trump inauguration,0.0,True
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2025-01-25,D,daily,0.6769334651414237,Trump inauguration,5.0,True
+tfidf,right_none_daily,right_none,right,none,KSWIN,2025-02-05,D,daily,0.5771720569923104,,,False
+tfidf,right_none_daily,right_none,right,none,PageHinkley,2025-02-09,D,daily,0.8500047100140206,,,False

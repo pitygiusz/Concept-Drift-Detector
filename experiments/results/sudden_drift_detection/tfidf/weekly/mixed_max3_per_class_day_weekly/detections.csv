@@ -1,0 +1,5 @@
+stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,n_articles,left_articles,right_articles,feature_type
+mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-04-01,W,weekly,0.8010215160313875,37,16,21,tfidf
+mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-07-22,W,weekly,0.8867256009203126,32,11,21,tfidf
+mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-11-25,W,weekly,0.797077265577659,34,13,21,tfidf
+mixed_max3_per_class_day_weekly,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-12-30,W,weekly,0.9042035804400067,30,9,21,tfidf

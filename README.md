@@ -2,85 +2,60 @@
 
 An online machine learning project investigating **concept drift in political language**, combining real-world news data, streaming ML, and unsupervised semantic analysis.
 
+## Abstract
+Online political discourse constantly evolves, creating potential concept drift that degrades static NLP models. This paper develops and evaluates two complementary approaches for drift detection in news streams sourced from the GDELT database spanning the 2024 U.S. Presidential Election. 
 
-##  Overview
+In the first part (Classification-based drift), we compare various vectorization and online classifier strategies on synthetic and real-world data. We use the ADWIN drift detector to detect drift in the stream of errors produced by classifiers.
 
-Political language evolves rapidly, especially around major events like elections, debates, or candidate changes. This evolution introduces **concept drift** — a shift in the relationship between text and its meaning over time.
+In the second part (Distributional-based drift), we apply an unsupervised distributional drift pipeline using daily and weekly article aggregates. Cosine distances are compared for consecutive windows in TF-IDF and embedding spaces, and the resulting distance streams are monitored with drift detectors. This avoids reliance on classification accuracy.
 
-### This project explores:
-
--  Why **classification-based drift detection fails** in real-world political data  
--  How **unsupervised distributional methods succeed**  
--  The difference between **synthetic vs real-world drift behavior**
-
-
-###  Key Insight:
-
-> **Drift detection is useless if your model learns nothing.**
+We show that given sufficient amount of data both approaches are able to detect shifts aligned with some major political events.
 
 
 ## Novel Methods
 
+- Custom-made synthetic natural language data generator for controlled drift experiments (simulating abrupt, gradual, and recurring drifts).
+- Design and implement three data balancing pipelines for real-world news data.
+- Extending the `river.base.Transformer` class to combine online learning with pre-trained transformer-based embeddings (e.g., `politicalBiasBERT`, `all-MiniLM-L6-v2`).
+- Custom-made unsupervised drift detection pipeline using ADWIN, Page-Hinkley, and KSWIN on univariate cosine distance streams.
 
-- Custom-made synthetic natural language data generator for controlled drift experiments
-- Extending the `river.base.Transformer` class to combine onlne learning with transformers-based embeddings
-- Custom-made unsupervised drift detection pipeline using ADWIN, Page-Hinkley, and KSWIN on embedding distances
+## Methodology and Contributions
 
-
-
-##  Methodology and Contributions
-
-###  Part I — Classification-Based Drift (Piotr Jurczyk)
+### Part I — Adaptive Streaming Classifiers (Piotr Jurczyk)
 
 #### Pipeline:
-1. Synthetic data generation
-2. TF-IDF + MultinomialNB
-3. SentenceTransformer + Logistic Regression
-4. ADWIN drift detection
+1. Synthetic data generation & Real-world data preprocessing (GDELT news articles).
+2. TF-IDF + MultinomialNB pipeline.
+3. SentenceTransformer + SGD Logistic Regression pipeline.
+4. ADWIN drift detection on the binary error stream.
 
 #### Result:
-- Works on synthetic data   
-- **Fails completely on real data** - models default to majority class
+- **Highly Successful on Real Data:** Overcame the majority-class baseline. Both models achieved strong rolling accuracy (80–95%).
+- **Behavioral Discovery:** TF-IDF proved superior for active concept drift detection (capturing multiple rapid shifts during government transition), whereas LLMs proved better for stable, long-term classification.
 
-
-
-###  Part II — Distributional Drift (Krzysztof Krawiec)
+### Part II — Unsupervised Distributional Drift (Krzysztof Krawiec)
 
 #### Pipeline:
-
-1. Group articles (daily/weekly)
-2. Compute embeddings (MiniLM)
-3. Measure cosine distance between windows
-4. Apply drift detectors: ADWIN, Page-Hinkley, KSWIN
+1. Group and aggregate articles into time windows (daily/weekly).
+2. Compute contextual representations (TF-IDF and LLM embeddings) for aggregated documents.
+3. Measure cosine distance between consecutive time windows.
+4. Apply drift detectors (ADWIN, Page-Hinkley, KSWIN) directly to the distance stream.
 
 #### Result:
-- Detects **real-world semantic shifts** aligned with political events
+- **Event Alignment:** Successfully detects real-world semantic shifts strictly aligned with major political events without requiring labeled data.
+- **Detector Efficacy:** Page-Hinkley proved to be the most effective detector for capturing abrupt distributional shifts in political discourse.
 
+## Project Structure
 
-##  Experiments (Current State)
-
-At this stage of the project, most experiments are conducted and organized within the `notebooks/` directory.  
-These notebooks serve as the primary interface for running analyses, visualizing results, and iterating on ideas.
-
-While this approach enables fast experimentation and flexibility during development, the structure is currently **not fully modularized**.
-
- In future iterations, the project will be refactored to:
-- move core experiment logic into reusable Python modules (`src/experiments/`)
-- provide clean CLI entry points for running experiments
-- standardize configuration and result logging
-- separate exploratory analysis from reproducible pipelines
-
-The long-term goal is to transition from a **research-oriented notebook workflow** to a **fully structured, production-ready experiment framework**.
-
-##  Installation
-
-```bash
-git clone https://github.com/pitygiusz/Concept-Drift-Detector.git
-cd Concept-Drift-Detector
-
-python -m venv .venv
-source .venv/bin/activate  # or Windows equivalent
-
-pip install -r requirements.txt
-
-
+```
+├── experiments/
+│   ├── data/        #unprocessed and processed datasets 
+│   ├── results/     #results of the distributional drift experiments
+│   ├── src/         #source code for various functions and classes 
+│   ├── 01_web_scraping.ipynb
+│   ├── 02_synthetic_data_classification.ipynb
+│   ├── 03_real_data_classification.ipynb
+│   └── 04_sudden_drift_detection_enhanced.ipynb
+├── README.md
+└── requirements.txt
+```

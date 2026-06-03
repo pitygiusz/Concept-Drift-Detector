@@ -1,0 +1,36 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-02-12,D,daily,0.4338191382378537,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-02-20,D,daily,0.5635208145499466,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-02-27,D,daily,0.6409896942746804,Start of campaign,-7.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-03-11,D,daily,0.505164426367106,Start of campaign,6.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-03-30,D,daily,0.674628634450032,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-04-05,D,daily,0.5590423503495656,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-04-10,D,daily,0.42869645696328096,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-04-17,D,daily,0.5660966828063294,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-04-30,D,daily,0.6200666583999048,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-05-05,D,daily,0.5121204597227081,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-05-14,D,daily,0.6318324596899308,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-05-26,D,daily,0.6473335693533533,Trump conviction,-4.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-06-11,D,daily,0.7142521223389375,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-06-23,D,daily,0.5803000651105745,First presidential debate,-4.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-07-06,D,daily,0.6013372876256833,Trump assassination attempt,-7.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-07-15,D,daily,0.5338049961682451,Trump assassination attempt,2.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-07-29,D,daily,0.5042871346298057,Harris becomes Democratic nominee,-7.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-08-06,D,daily,0.6051189358504019,Harris becomes Democratic nominee,1.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-08-15,D,daily,0.46852416566322974,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-08-20,D,daily,0.5047749665857064,,,False
+embedding,right_none_daily,right_none,right,none,KSWIN,2024-08-23,D,daily,0.3181741446487062,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-08-26,D,daily,0.5870558622390742,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-09-13,D,daily,0.5782713020797162,Second presidential debate,3.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-09-22,D,daily,0.5945783146558167,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-10-02,D,daily,0.6128602967687501,Vice presidential debate,1.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-10-08,D,daily,0.5217223560025408,Vice presidential debate,7.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-10-24,D,daily,0.5594529372355693,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-11-16,D,daily,0.6933918524994584,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-11-29,D,daily,0.62751051013097,,,False
+embedding,right_none_daily,right_none,right,none,KSWIN,2024-12-04,D,daily,0.37251220486089065,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2024-12-30,D,daily,0.7207838275670071,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2025-01-04,D,daily,0.6424382653861225,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2025-01-15,D,daily,0.4794121517534343,Trump inauguration,-5.0,True
+embedding,right_none_daily,right_none,right,none,PageHinkley,2025-02-02,D,daily,0.5771153756718466,,,False
+embedding,right_none_daily,right_none,right,none,PageHinkley,2025-02-12,D,daily,0.42450468504763383,,,False

@@ -1,0 +1,7 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+embedding,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-03-04,W,weekly,0.6878819285873802,Start of campaign,-1.0,True
+embedding,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-04-01,W,weekly,0.7557168292997021,,,False
+embedding,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-06-17,W,weekly,0.8291299002962438,First presidential debate,-10.0,True
+embedding,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-08-05,W,weekly,0.789790090310043,Harris becomes Democratic nominee,0.0,True
+embedding,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2024-12-02,W,weekly,0.7709503577164034,,,False
+embedding,mixed_raw_weekly,mixed_raw,mixed,raw,PageHinkley,2025-01-20,W,weekly,0.6323068838856329,Trump inauguration,0.0,True

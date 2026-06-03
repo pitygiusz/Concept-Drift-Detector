@@ -1,0 +1,6 @@
+stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,n_articles,left_articles,right_articles,feature_type
+mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-03-25,W,weekly,0.7640485394203297,35,11,24,tfidf
+mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-07-22,W,weekly,0.8900339387982261,26,14,12,tfidf
+mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-10-21,W,weekly,0.73569785921789,51,29,22,tfidf
+mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-11-18,W,weekly,0.7394676996368705,35,15,20,tfidf
+mixed_global_undersampled_weekly,mixed_global_undersampled,mixed,global_undersampled,PageHinkley,2024-12-30,W,weekly,0.9245284730550516,33,9,24,tfidf

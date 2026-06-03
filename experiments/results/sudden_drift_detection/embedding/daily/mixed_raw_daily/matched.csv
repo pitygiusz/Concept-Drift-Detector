@@ -1,0 +1,41 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-02-11,D,daily,0.5218203709816605,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-02-22,D,daily,0.6599588386579791,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-02-29,D,daily,1.0049137191925894,Start of campaign,-5.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-03-17,D,daily,0.5310216591978082,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-03-26,D,daily,0.5905428507022721,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,KSWIN,2024-03-30,D,daily,0.674628634450032,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-04-16,D,daily,0.7237394220586908,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-05-04,D,daily,0.7876057032564344,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-05-09,D,daily,0.6903100260145365,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-05-15,D,daily,0.7646180092381261,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-05-28,D,daily,0.5805025289649859,Trump conviction,-2.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-06-11,D,daily,0.6864024021446797,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-06-24,D,daily,0.6471363178412497,First presidential debate,-3.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-07-04,D,daily,0.696204175025876,First presidential debate,7.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,KSWIN,2024-07-11,D,daily,0.2995016053577516,Trump assassination attempt,-2.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-07-17,D,daily,0.7475939086292297,Trump assassination attempt,4.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-07-23,D,daily,0.6559552017613951,Biden withdraws from race,2.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-08-05,D,daily,0.9067883647613629,Harris becomes Democratic nominee,0.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-08-16,D,daily,0.5354111170951262,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-08-26,D,daily,0.5984655254955281,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,KSWIN,2024-08-27,D,daily,0.4859999531504613,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-09-03,D,daily,0.5843845726683176,Second presidential debate,-7.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-09-09,D,daily,0.6460068897416018,Second presidential debate,-1.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-09-20,D,daily,0.6610679930253044,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-10-09,D,daily,0.6304883008270648,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-10-14,D,daily,0.6020702799681995,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-10-20,D,daily,0.8527576304285547,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-11-04,D,daily,0.6095686304164667,US presidential election,-1.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-11-16,D,daily,0.4894535620833538,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-11-24,D,daily,0.7372052887413973,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-11-30,D,daily,0.6027001633741206,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,KSWIN,2024-12-06,D,daily,0.39973861578190173,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-12-13,D,daily,0.6130457475233235,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-12-18,D,daily,0.6977559111736428,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-12-23,D,daily,0.5353673007481621,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2024-12-29,D,daily,0.5748055938526693,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2025-01-13,D,daily,0.7137695137093452,Trump inauguration,-7.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2025-01-27,D,daily,0.6836012828718229,Trump inauguration,7.0,True
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2025-02-01,D,daily,0.6623547187909226,,,False
+embedding,mixed_raw_daily,mixed_raw,mixed,raw,PageHinkley,2025-02-09,D,daily,0.6590931242435081,,,False

@@ -1,0 +1,6 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+embedding,left_none_weekly,left_none,left,none,PageHinkley,2024-02-26,W,weekly,0.700264376174716,Start of campaign,-8.0,True
+embedding,left_none_weekly,left_none,left,none,PageHinkley,2024-04-08,W,weekly,0.7002712986071494,,,False
+embedding,left_none_weekly,left_none,left,none,PageHinkley,2024-04-29,W,weekly,0.7619635619635847,,,False
+embedding,left_none_weekly,left_none,left,none,PageHinkley,2024-06-24,W,weekly,0.9065230889610842,First presidential debate,-3.0,True
+embedding,left_none_weekly,left_none,left,none,PageHinkley,2024-11-04,W,weekly,0.8482883015702831,US presidential election,-1.0,True

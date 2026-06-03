@@ -1,0 +1,29 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-02-20,D,daily,0.705275935460468,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-02-27,D,daily,0.7540364509554789,Start of campaign,-7.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,KSWIN,2024-03-11,D,daily,0.4295627950544406,Start of campaign,6.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-04-17,D,daily,0.753940415031163,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-05-08,D,daily,0.7021135440118487,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-05-28,D,daily,0.8289162316544331,Trump conviction,-2.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,KSWIN,2024-06-20,D,daily,0.4009832109293854,First presidential debate,-7.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-06-24,D,daily,0.6947128034879895,First presidential debate,-3.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-07-03,D,daily,0.7537641047442518,First presidential debate,6.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-07-23,D,daily,0.8542464764883237,Biden withdraws from race,2.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-08-06,D,daily,0.6551244185173006,Harris becomes Democratic nominee,1.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-08-22,D,daily,0.7065032604503203,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-09-03,D,daily,0.6143569761652514,Second presidential debate,-7.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-09-10,D,daily,0.5730101930862136,Second presidential debate,0.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-09-20,D,daily,0.68824564726788,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-09-30,D,daily,0.538468837607863,Vice presidential debate,-1.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-10-12,D,daily,0.5125873735217416,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-10-21,D,daily,0.7184109055166967,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-10-28,D,daily,0.7323734107258475,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-11-05,D,daily,0.6613043848331182,US presidential election,0.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-11-20,D,daily,0.4961895961236613,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-11-26,D,daily,0.5247310975918567,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,KSWIN,2024-12-03,D,daily,0.6358744025037036,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-12-09,D,daily,0.6608875504202623,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2024-12-19,D,daily,0.6685734447364539,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2025-01-13,D,daily,0.6770027562490701,Trump inauguration,-7.0,True
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2025-02-06,D,daily,0.7158513194159274,,,False
+embedding,mixed_max3_per_class_day_daily,mixed_max3_per_class_day,mixed,max3_per_class_day,PageHinkley,2025-02-17,D,daily,0.4311876527581693,,,False

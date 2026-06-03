@@ -1,0 +1,4 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window_code,time_window_name,detections,true_positives,false_positives,precision_like,avg_delay_days,events_detected,events_missed,event_recall
+embedding,left_none_daily,left_none,left,none,ADWIN,D,daily,0,0,0,,,0,10,0.0
+embedding,left_none_daily,left_none,left,none,PageHinkley,D,daily,7,3,4,0.42857142857142855,3.0,3,7,0.3
+embedding,left_none_daily,left_none,left,none,KSWIN,D,daily,1,0,1,0.0,,0,10,0.0

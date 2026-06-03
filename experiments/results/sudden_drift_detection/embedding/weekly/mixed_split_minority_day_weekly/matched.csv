@@ -1,0 +1,10 @@
+feature_type,stream_group,stream_source,stream_family,sampling,detector,time_window,time_window_code,time_window_name,drift_score,matched_event,delay_days,is_true_positive
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-02-26,W,weekly,0.6526980610270998,Start of campaign,-8.0,True
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-03-25,W,weekly,0.6676006272296487,,,False
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-04-22,W,weekly,0.8602732606390217,,,False
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-05-27,W,weekly,0.6340633310388715,Trump conviction,-3.0,True
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-07-15,W,weekly,0.6041852647496528,Trump assassination attempt,2.0,True
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-08-12,W,weekly,0.8329544555597705,Harris becomes Democratic nominee,7.0,True
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-09-02,W,weekly,0.6147286379783374,Second presidential debate,-8.0,True
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2024-11-25,W,weekly,0.626618682130769,,,False
+embedding,mixed_split_minority_day_weekly,mixed_split_minority_day,mixed,split_minority_day,PageHinkley,2025-01-13,W,weekly,0.6371911423685368,Trump inauguration,-7.0,True
